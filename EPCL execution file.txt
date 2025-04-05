@@ -1,0 +1,35 @@
+$dyfile = "a6_CHANGED.dyd"
+$hfile = "sm20_change2.sav"
+$rfile = "pslf.rep"
+$pfile = "a4-2.chf"
+@fixup = 0
+@interval = 0.5
+@i = getf($hfile)
+secdd[16].zsecx = 0.04
+secdd[18].zsecx = 0.04
+@i = soln()
+@i = psds()
+dypar[0].delt = 0.0028
+ss
+@i = rdyd($dyfile, $rfile, "1", "0", "1" )
+
+@i = init($pfile, $rfile, "0")
+dypar[0].nplot = 1
+dypar[0].nscreen = 25
+dypar[0].tpause = 2
+@i = run()
+gens[0].st = 0
+dypar[0].nplot = 5
+dypar[0].nscreen = 25
+dypar[0].tpause = 2. + @interval
+@i = run()
+
+load[4].p = -37
+load[4].st = 1
+dypar[0].nplot = 5
+dypar[0].nscreen = 25
+dypar[0].tpause = 100
+@i = run()
+@i=dsst()
+stop()
+end
