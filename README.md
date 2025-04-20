@@ -1,6 +1,10 @@
 # Scalable Data Centers - Power Generation and Delivery Challenges and Solutions
 Implementation of the paper "Scalable Data Centers - Power Generation and Delivery Challenges and Solutions" by Soham Ghosh and Jaya Damodara.  
 
+To use the dataset and codes, you must attribute the original work and cite the following pre-publication:
+
+*Ghosh, Soham and Damodara, Jaya, Scalable Data Centers - Power Generation and Delivery Challenges and Solutions. Available at SSRN: https://ssrn.com/abstract=5221648 or http://dx.doi.org/10.2139/ssrn.5221648*
+
 Supplementary Python and PSLF program files associated with the manuscript. 
 
 * Python file contains code for data center task rescheduling.
