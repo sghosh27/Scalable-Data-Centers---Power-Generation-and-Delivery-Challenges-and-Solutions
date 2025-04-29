@@ -5,6 +5,9 @@ To use the dataset and codes, you must attribute the original work and cite the 
 
 *Ghosh, Soham and Damodara, Jaya, Scalable Data Centers - Power Generation and Delivery Challenges and Solutions. Available at SSRN: https://ssrn.com/abstract=5221648 or http://dx.doi.org/10.2139/ssrn.5221648*
 
+![Visual Abstract_Alternate Palette](https://github.com/user-attachments/assets/b42e3120-823d-48e1-88bc-e67b92e8a6e7)
+
+
 Supplementary Python and PSLF program files associated with the manuscript. 
 
 * Python file contains code for data center task rescheduling.
